@@ -1,0 +1,22 @@
+ul{
+  padding: 0px;
+  margin: 100px 0 0 0;
+  display: flex;
+  justify-content: center;
+  border:{
+    width: 1px;
+    style: solid;
+    color: #cccccc;
+  }
+  background: {
+    image: url("./menu.svg");
+    repeat: no-repeat;
+    position: left top;
+  }
+  li{
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0 15px;
+    color: rebeccapurple;
+  }
+}
